@@ -50,22 +50,22 @@
     margin:0 10px;
     padding: 12px 0;
     border:2px solid white;
+    z-index: 1; /* to show that span is a part of this*/
     position:relative /* to show that span is a part of this*/
-
+   
 }
 .banner-btn a span
 {
-    width: 50%;
+    width: 0%;
     height: 100%;
     position: absolute;
     top:0;
     left:0;
-    background-color: white;
-    z-index:-1; /* for pputting color in the background*/
+    background: white;
+    z-index:-1; /* for putting color in the background*/
     transition:0.5s;
 }
-.banner-btn a:hover span /* to make the color change when we hover over the button*/
-
+.banner-btn a:hover span
 {
     width:100%;
 }
