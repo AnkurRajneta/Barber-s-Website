@@ -51,8 +51,8 @@
     padding: 12px 0;
     border:2px solid white;
     z-index: 1; /* to show that span is a part of this*/
-    position:relative /* to show that span is a part of this*/
-   
+    position:relative;/* to show that span is a part of this*/
+    transition: color 0.5s;
 }
 .banner-btn a span
 {
@@ -68,4 +68,9 @@
 .banner-btn a:hover span
 {
     width:100%;
+}
+.banner-btn a:hover 
+{
+    color:black;
+    font-weight: bold;
 }
