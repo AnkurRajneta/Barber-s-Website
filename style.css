@@ -74,7 +74,7 @@
     color:black;
     font-weight: bold;
 }
-.navigation
+#navigation
 {
    width:200px;
    height:100vh;
@@ -97,7 +97,7 @@ nav ul li a
     color:white;
     font-weight: bold;
 }
-.menu-btn
+#menu-btn
 {
     width: 50px;
     height: 50px;
@@ -110,7 +110,7 @@ nav ul li a
     cursor:pointer;
     border-radius:3px; 
 }
-.menu-btn img
+#menu-btn img
 {
     width:20px;
     margin:15px;
